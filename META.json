@@ -1,10 +1,10 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Kit for Solitaire Medici",
    "author" : [
-      "gugo <>"
+      "gugo <gugo@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v2.4.1, CPAN::Meta::Converter version 2.142690",
+   "generated_by" : "Minilla/v2.5.0, CPAN::Meta::Converter version 2.142690",
    "license" : [
       "perl_5"
    ],
@@ -42,6 +42,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Dreamhack::Solitaire" : "0",
             "perl" : "5.008001"
          }
       },
@@ -52,5 +53,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/gugo-kaluga/Dreamhack-Solitaire-Medici/issues"
+      },
+      "homepage" : "https://github.com/gugo-kaluga/Dreamhack-Solitaire-Medici",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/gugo-kaluga/Dreamhack-Solitaire-Medici.git",
+         "web" : "https://github.com/gugo-kaluga/Dreamhack-Solitaire-Medici"
+      }
+   },
    "version" : "0.01"
 }
