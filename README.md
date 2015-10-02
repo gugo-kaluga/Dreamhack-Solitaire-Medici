@@ -20,7 +20,8 @@ or, for empty starting layout:
 or, for russian programmers:
 
     print Dreamhack::Solitaire::Medici->new(lang=>'ru_RU.utf8')->process()->format();
-    In this case you mast use cyrrilic cards abbr for init layout.
+
+In this case you mast use cyrrilic cards abbr for init layout.
 
 # DESCRIPTION
 
