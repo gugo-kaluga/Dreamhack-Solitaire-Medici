@@ -62,9 +62,9 @@ Example: Qs, 7d
     Constructor. Takes a hash with options as an argument.
 
         my $sol = Dreamhack::Solitaire::Medici->new(
-            lang => 'ru_RU.utf8', # English if empty (default), Russian or another languages in future (may be), optional
-            suits => ['_spades', '_clubs', '_diamonds', '_hearts'], # you own suits for deck, in this case lang ignored, optional
-            valence => ['2','3','4','5','6','7','8','9','10',], # you own valences for deck, optional
+            lang => 'ru_RU.utf8', # English if empty (default), Russian or (in future) another languages, optional
+            suits => ['_spades', '_clubs', '_diamonds', '_hearts'], # your own suits for deck, in this case lang ignored, optional
+            valence => ['2','3','4','5','6','7','8','9','10',], # your own valences for deck, optional
         );
 
 - init\_layout $arrayref
