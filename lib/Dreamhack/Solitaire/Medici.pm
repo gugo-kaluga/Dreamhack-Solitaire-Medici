@@ -7,7 +7,7 @@ no warnings 'recursion';
 use base 'Dreamhack::Solitaire';
 use Dreamhack::Solitaire;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub process {
     my ($self, %args) = @_;
