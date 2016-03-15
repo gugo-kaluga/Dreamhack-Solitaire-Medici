@@ -5,7 +5,7 @@ use warnings;
 no warnings 'recursion';
 
 use base 'Dreamhack::Solitaire';
-use Dreamhack::Solitaire;
+use Dreamhack::Solitaire 0.02;
 
 our $VERSION = "0.02";
 

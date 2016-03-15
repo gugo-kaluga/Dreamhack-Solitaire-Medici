@@ -9,7 +9,6 @@ my @layout = qw(
 );
 
 my $sol = Dreamhack::Solitaire::Medici->new(
-    lang    =>'ru_RU.utf8',
     suits   => ['п', 'к', 'б', 'ч', 'ц'],
     valence => ['6','7','8','9','10', 'В','Д','К','Т']
 );
